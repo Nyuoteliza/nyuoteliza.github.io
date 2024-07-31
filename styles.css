@@ -1,0 +1,236 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #ddd;
+    background-color: #121212;
+}
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+    overflow: hidden;
+    padding: 20px;
+}
+
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #1e1e1e;
+}
+
+.nav-container {
+    display: flex;
+    align-items: center;
+}
+
+.profile-picture {
+    width: 100px; 
+    height: 100px; 
+    border-radius: 10%;
+    margin-right: 10px; 
+    border: 2px solid #39FF14; 
+}
+
+.my-picture {
+    height: 300px;
+    width: 450px;
+    border-radius: 5%;
+}
+
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: #ddd;
+}
+
+.navbar {
+    list-style: none;
+    display: flex;
+}
+
+.navbar li {
+    margin-left: 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #ddd;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    color: #bbb;
+}
+
+.slider-container {
+    width: 100%;
+    height: 600px;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .slide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+    overflow: hidden;
+  }
+  
+  .slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .slider-controls {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+  }
+  
+  .slider-controls button {
+    font-size: 24px;
+    padding: 10px 20px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border: none;
+    cursor: pointer;
+  }
+
+#about {
+    background-color: #1e1e1e;
+    padding: 2rem 0;
+}
+
+#about h1 {
+    color: #ddd;
+    margin-bottom: 1rem;
+}
+
+#about .about {
+    margin-bottom: 1rem;
+}
+
+#about img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 1rem auto;
+}
+
+
+
+
+#experience {
+    background-color: #1e1e1e;
+    padding: 2rem 0;
+}
+
+#experience .section-title {
+    color: #ddd;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.experience-content {
+    background-color: #2a2a2a;
+    border-radius: 8px;
+    padding: 1.5rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.experience-content p {
+    margin-bottom: 1rem;
+    line-height: 1.8;
+    color: #ddd;
+}
+
+
+
+
+#education {
+    background-color: #1e1e1e;
+    padding: 2rem 0;
+}
+
+#education .section-title {
+    color: #ddd;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.education-list, .about-me {
+    background-color: #2a2a2a;
+    border-radius: 8px;
+    padding: 1.5rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.education-list p {
+    margin-bottom: 1rem;
+    line-height: 1.8;
+    color: #ddd;
+}
+
+
+
+
+#projects {
+    background-color: #1e1e1e;
+    padding: 2rem 0;
+}
+
+#projects .section-title {
+    color: #ddd;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    gap: 1.5rem;
+}
+
+.project-item {
+    background-color: #2a2a2a;
+    border-radius: 8px;
+    padding: 1.5rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    color: #ddd;
+}
+
+.project-item h2 {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.project-item p {
+    margin-bottom: 0.5rem;
+    line-height: 1.8;
+}
+
+.login-button {
+    display: inline-block;
+    background: #39FF14;
+    text-decoration: none;
+    padding: 10px 20px;
+    color: black;
+    border: 2px solid #39FF14;
+    border-radius: 5px;
+    font-weight: bold;
+}
